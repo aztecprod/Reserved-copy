@@ -17,6 +17,8 @@
 
 ![image](https://github.com/aztecprod/Reserved-copy/assets/25949605/ffbe54d1-dd31-486a-8822-ab06d1ef8734)
 
+3.1
+
 1 способ:
 mysqlbackup --defaults-file=/home/dbadmin/my.cnf --incremental --incremental-base=history:last_backup --backup-dir=/home/dbadmin/temp_dir --backup-image=incremental_image1.bi backup-to-image
 
