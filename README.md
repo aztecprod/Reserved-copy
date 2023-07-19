@@ -11,7 +11,7 @@
 
 2.1 
 
-# pg_-Fc dump my_bd > /tmp/my_bd.sql
+# pg_dump -Fc my_bd > /tmp/my_bd.sql
 
 # pg_restore -d my_bd /tmp/my_bd.sql
 
